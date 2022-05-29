@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         // normal association
-      /*  Client client = new Client("Dariusz");
+        Client client = new Client("Dariusz");
 
         Bank alior = new Bank("Alior Bank");
         Bank mbank = new Bank("MBank");
@@ -10,10 +10,10 @@ public class Main {
         client.addBank(alior);
         client.addBank(mbank);
 
-        System.out.println(client);*/
+        System.out.println(client);
         //
         // attribute association
-        /*Actor jonnyDeep = new Actor("Jonny Deep");
+        Actor jonnyDeep = new Actor("Jonny Deep");
         Actor leoDiCaprio = new Actor("Leonardo di Caprio");
 
         Studio hollywood = new Studio("Hoolywood");
@@ -28,12 +28,12 @@ public class Main {
         pirates.addStudio(hollywood);
         titanic.addStudio(hollywood);
 
-        System.out.println(hollywood);*/
+        System.out.println(hollywood);
 
 
         //
         // qualified association
-     /*   Academy pjatk = new Academy("Polsko-Japonska ATK");
+        Academy pjatk = new Academy("Polsko-Japonska ATK");
         Academy pw = new Academy("PW");
         Student darek = new Student("Dariusz Dajcz", "s21522");
         Student szymon = new Student("Szymon Kowalski", "s21533");
@@ -45,7 +45,7 @@ public class Main {
 
 
         System.out.println(pjatk);
-        System.out.println(pw);*/
+        System.out.println(pw);
 
         //
         // composition
